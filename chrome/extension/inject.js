@@ -41,7 +41,7 @@ class InjectApp extends Component {
 
 window.addEventListener('load', () => {
   const injectDOM = document.createElement('div');
-  injectDOM.className = 'inject-react-example';
+  injectDOM.className = 'itg-extension';
   injectDOM.style.textAlign = 'center';
   document.body.appendChild(injectDOM);
   render(<InjectApp />, injectDOM);
